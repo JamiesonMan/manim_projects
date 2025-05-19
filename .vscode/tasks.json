@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run ManimGL",
+      "type": "shell",
+      "command": "manimgl ${file} ${file}",
+      "group": "build"
+    },
+    {
+      "label": "Output ManimGL",
+      "type": "shell",
+      "command": "manimgl ${file} ${file} -o",
+      "group": "build"
+    }
+  ]
+}

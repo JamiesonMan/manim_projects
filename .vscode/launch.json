@@ -1,0 +1,21 @@
+// .vscode/launch.json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "▶️ Run ManimGL Scene",
+      "type": "debugpy",
+      "request": "launch",
+      // run the manimgl entrypoint
+      "module": "manimlib.__main__", 
+      "args": [
+        // full path to the currently open .py
+        "${file}",  
+        // scene name is same as file convention
+        "${file}"
+      ],
+      "console": "integratedTerminal",
+      "justMyCode": false
+    }
+  ]
+}
