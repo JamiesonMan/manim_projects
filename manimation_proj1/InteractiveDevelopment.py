@@ -1,6 +1,6 @@
 from manimlib import *
 
-class InteractiveDevelopment(Scene):
+class InteractiveDevelopment(InteractiveScene):
     def construct(self):
         circle = Circle()
         circle.set_fill(BLUE, opacity=0.5)
@@ -19,6 +19,7 @@ class InteractiveDevelopment(Scene):
         # Try copying and pasting some of the lines below into
         # the interactive shell
         self.play(ReplacementTransform(square, circle))
+        self.play(ReplacementTransform(circle, square))
         self.wait()
         self.play(circle.animate.stretch(4, 0))
         self.play(Rotate(circle, 90 * DEGREES))
