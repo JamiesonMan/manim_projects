@@ -1,4 +1,5 @@
-These are all of my manim projects.
+UPDATE: 7/22/2025 that most of these are from the creator of manim library as of now, I plan on coming back and making some cool chess engine/linear algebra visuals.
+These are all of my manim projects
 
 Start Date: 5/18/2025
 
